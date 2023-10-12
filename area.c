@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
 
   scanf("%lf", &height);
 
-  area =  base * height * 1/2;
+  area = 1.0/2*  base * height ;
 
   printf("The area is %f square units.\n", area);
 
