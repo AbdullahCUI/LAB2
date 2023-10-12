@@ -1,5 +1,7 @@
 /**
- * Author: Chris Bourke
+ * Author: Abdullah
+ * section:2D
+ * Subject:PF
  *
  * This program outputs data on the limits of various
  * data types.

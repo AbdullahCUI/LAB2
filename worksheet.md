@@ -2,7 +2,7 @@
 # Computer Science I 
 ## Lab 2.0 Worksheet
 
-Name(s) and Login(s):
+Name(Abdullah) and Login(s):
 
 
 
@@ -35,21 +35,53 @@ results you observe.
 
 * `char`
   size: 1 byte
-  range: -128 to 127
+  range:
+  Manimum value for signed char: -128 
+  Maximum value for signed char:127
+  Manimum value for unsigned char:0
+  Maximum value for unsigned char:255
+  Manimum value for unsigned char:-128
+  Maximum value for unsigned char:127
+  size of signed char:1 byte
 * `short int`
-  size:
-  range:
+  size:2 bytes
+  range:-32768
+   Manimum value for signed short:-32768
+  Maximum Value for signed short: 32767
+  size of signed short:2 bytes
+
+  Manimum value of unsigned short:0
+  Maximum value of unsigned short:65535
+  size of unsigned short:2 bytes
 * `int`
-  size:
-  range:
+  size:4 bytes
+  range:-2147483648 to 2147483647
+
+  Minimun value for signed int:-2147483648
+  Maximum value for signed int: 2147483647
+  size of signed int: 4 bytes
+
+  Minimum value for unsigned int:0
+  Maximum value for unsigned int: 4294967295
+  size of unsigned int : 4 bytes
+
+ 
 * `long int`
-  size:
-  range:
+  size: 4 bytes
+  range:-2147483648 to 2147483647
+  Manimum value for signed long:-2147483648
+  Maximum value for singned long:2147483647
+  size of singned long: 4 bytes
+
+  Minimum value for unsigned long:0
+  Maximum value for unsigned long: 4294967295
+  size of unsigned long: 4 bytes
+  
 * `float`
-  size:
+  size:4 bytes
   range: 7 digits of accuracy
 * `double`
-  size:
+  size:8 bytes
   range: 15 digits of accuracy
 
 
