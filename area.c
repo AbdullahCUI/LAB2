@@ -25,4 +25,8 @@ int main(int argc, char **argv) {
  printf("Please Enter Height of the Triangle:");
 
  scanf("%f", & height);
+
+ //formula of area culculating
+
+ area=1.0/2* base *height;
 }
