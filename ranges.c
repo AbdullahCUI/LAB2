@@ -15,6 +15,7 @@ int main(int argc, char **argv) {
 
   //character types
   //find the range of character data type
+  //sizeof is resvered worrd user for to find the range
   printf("\nData type: character type.\n");
   printf("Minimum value for signed char: %d.\n", SCHAR_MIN);
   printf("Maximum value for signed char: %d.\n", SCHAR_MAX);
