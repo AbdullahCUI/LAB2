@@ -65,12 +65,28 @@ int main(int argc, char **argv) {
   time_t bdayT = mktime(&bday);
   long diff = (long) difftime(now, bdayT);
 
+//year declared in integer data type
+
+
+//diff is dividing by (365.25 days multipli 24 hours multipli 60 mintus and multipli 60 sec)
   int years = diff / (365.25 * 24 * 60 * 60);
+
+  //from diff subtract the vlaue of year
   diff -= years * (365.25 * 24 * 60 * 60);
+
+  //in declared in integer data type and assigned value is 
+
+  //diff divided by (24 hours * 60 mints and multipli 60 sec)
   int days = diff / (24 * 60 * 60);
 
+// lets laste for week 
+//week declared in integer data type 
+//assigind value day is divided by 7
   int weeks = days / 7;
+  //and a reminder is assigned to days
   days = days % 7;
+
+  //laste message
 
   printf("Hello, %s.  You are %d years, %d weeks, and %d days old today\n", name, years, weeks, days);
 
