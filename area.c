@@ -29,4 +29,10 @@ int main(int argc, char **argv) {
  //formula of area culculating
 
  area=1.0/2* base *height;
+
+ //print the area of a triangle
+
+ printf("The Area of triangle = %f", area);
+
+ return 0;
 }
