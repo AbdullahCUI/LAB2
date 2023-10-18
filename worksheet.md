@@ -90,10 +90,10 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
   size of unsigned long: 4 bytes
   
 * `float`
-  size:
+  size:4 bytes
   range: 
 * `double`
-  size:
+  size:8 bytes
   range: 
 
 
