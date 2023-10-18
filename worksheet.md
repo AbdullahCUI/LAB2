@@ -62,39 +62,39 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
   Maximum Value for signed short:32767
   size of signed short:2 bytes
 
-  Manimum value of unsigned short:
+  Manimum value of unsigned short:0
   Maximum value of unsigned short:65535
   size of unsigned short:2 bytes
 * `int`
   size:4 bytes
-  range:-2147483648 to 2147483647
+  range:
 
   Minimun value for signed int:-2147483648
-  Maximum value for signed int: 2147483647
-  size of signed int: 4 bytes
+  Maximum value for signed int:2147483647
+  size of signed:4 bytes
 
   Minimum value for unsigned int:0
-  Maximum value for unsigned int: 4294967295
+  Maximum value for unsigned int:4294967295 
   size of unsigned int : 4 bytes
 
  
 * `long int`
-  size: 4 bytes
-  range:-2147483648 to 2147483647
-  Manimum value for signed long:-2147483648
+  size:4 bytes
+  range:
+  Manimum value for signed long:-214967295
   Maximum value for singned long:2147483647
   size of singned long: 4 bytes
 
   Minimum value for unsigned long:0
-  Maximum value for unsigned long: 4294967295
+  Maximum value for unsigned long:4294967295 
   size of unsigned long: 4 bytes
   
 * `float`
-  size:4 bytes
-  range: 7 digits of accuracy
+  size:
+  range: 
 * `double`
-  size:8 bytes
-  range: 15 digits of accuracy
+  size:
+  range: 
 
 
 5. Use your working currency conversion to determine
@@ -102,27 +102,13 @@ the exchange amounts for the following inputs:
 
   a) $250.25
 
-    Your total USD is : 250.250000    
-    Your remaning USD is 225.225006   
-    Your Exchange rate is : 25.025000 
-    You have 88.963882 British Pound  
-    You have 14374.986328 Japines yen
+   
 
   b) $1,000.52
 
-    Your total USD is : 1000.520020 
-    Your remaning USD is 900.468018
-    Your Exchange rate is : 100.052002
-    You have 355.684875 British Pound
-    You have 57472.371094 Japines yen
-
+    
   c) $968,410.12
 
-  Your total USD is : 968410.125000 
-  Your remaning USD is 871569.125000
-  Your Exchange rate is : 96841.015625
-  You have 344269.812500 British Pound
-  You have 55627900.000000 Japines yen
 
 6. Suppose that you had used only `int` types
 in your conversion program.  Would you be able
@@ -130,23 +116,19 @@ to use it to convert the US national debt
 (which as of 2020 was \$26,009,754,625,487)?
 Why or why not?
 
-i would not be able to use it convert the US national debt because of int range is shorter then US national dept 
-
 
 7. Mixed types
 
 a) Run the `area` program with 3 and 4 as inputs.  
 What value do you get?  Is this result correct?
 
-The value we get 0.000000 which is not correct 
+
 
 b) Execute the program again with inputs 3 and 5.
 Does the program give correct results?  Why not?
 
-The value we get 0.000000 which is not correct because 1/2 both area integer value as we know
-when integer is divided then the result is also a integer that why over answer is not correct
+
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
 
-solved 
