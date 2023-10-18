@@ -56,11 +56,11 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
   Maximum value for unsigned char:127
   size of signed char:1 byte
 * `short int`
-  size:
+  size:2 bytes
   range:
-   Manimum value for signed short:
-  Maximum Value for signed short: 
-  size of signed short:
+   Manimum value for signed short:-32768
+  Maximum Value for signed short:32767
+  size of signed short:2 bytes
 
   Manimum value of unsigned short:
   Maximum value of unsigned short:65535
