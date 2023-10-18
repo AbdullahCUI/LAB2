@@ -12,9 +12,9 @@
 
 int main(int argc, char **argv) {
 
-  char name[100];
+  char name_1[100];
   printf("Please Enter Your First Name (no spaces) followed by ENTER: ");
-  scanf("%s", name);
+  scanf("%s", &name_1);
 
   int year = 0;
   printf("Enter the year in which you were born: ");
