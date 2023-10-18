@@ -16,20 +16,26 @@ int main(int argc, char **argv) {
   printf("Please Enter Your First Name (no spaces) followed by ENTER: ");
   scanf("%s", &name_1);
 
+//year declared in integer data type and general store 0
   int year = 0;
   printf("Enter the year in which you were born: ");
   scanf("%d", &year);
 
+//month variable is declared in integer data type and general store 0
   int month = 0;
   printf("Enter the month in which you were born (1-12): ");
   scanf("%d", &month);
 
+//day is declared as a variable and declared in integer data type store value 0
   int day = 0;
   printf("Enter the day of the month in which you were born (1-31): ");
   scanf("%d", &day);
 
+//str is array
   char str[100];
+  //time_t is reserved word and declared variable now and assigin time is null
   time_t now = time(NULL);
+  //use structer in their
   struct tm *ptrNow;
   struct tm bday;
   bday.tm_mday = day;
