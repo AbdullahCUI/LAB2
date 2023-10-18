@@ -22,5 +22,15 @@ int main()
     //to read USD from user
 
     scanf("%f", &USD);
+
+    //start conversion
+
+    exchange_rate=USD*exchange_rate;
+
+    remaing_usd= USD - exchange_rate;
+
+    JPN_convert=(remaing_usd*0.5*jpn);
+
+    Pound_convert=(remaing_usd*0.5*pound);
     return 0;
 }
