@@ -41,10 +41,20 @@ int main(int argc, char **argv) {
   bday.tm_mday = day;
   bday.tm_mon = month - 1;
   //tm_year is the number of years since 1900, so correcting:
+
+  //user enter corrent year is subtract from 1900
   bday.tm_year = year - 1900;
+
+  //tm_sec (sec mean second) issigned value 0
   bday.tm_sec = 0;
+
+  //tm_min meant time mintus and assigined 0 value
   bday.tm_min = 0;
+
+  //tm_hour mean time hours and assigned 0 value
   bday.tm_hour = 0;
+
+  //tm_isdst meandaylight saving timeflag
   bday.tm_isdst = -1; //let system determine DST or not
   ptrNow = localtime(&now);
   strftime(str,80,"%Y/%m/%d",ptrNow);
