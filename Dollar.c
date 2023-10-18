@@ -32,5 +32,17 @@ int main()
     JPN_convert=(remaing_usd*0.5*jpn);
 
     Pound_convert=(remaing_usd*0.5*pound);
+
+    //output on console
+
+    printf("Your total USD is :%f\n", USD);
+
+    printf("Your remaing USD is :%f\n",remaing_usd);
+
+    printf("Exhange rate is :%f\n",exchange_rate);
+
+    printf("You have %f of Britist Pound\n",Pound_convert);
+
+    printf("You have %f of Japanier yen:",JPN_convert);
     return 0;
 }
