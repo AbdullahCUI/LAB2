@@ -13,4 +13,16 @@
 int main(int argc, char **argv) {
 
  double area,base,height;
+
+ //user printf function for to show output on console
+
+ printf("Please enter Base of the triangle:");
+
+ //scanf for to read a value 
+
+ scanf("%f", &base);
+
+ printf("Please Enter Height of the Triangle:");
+
+ scanf("%f", & height);
 }
