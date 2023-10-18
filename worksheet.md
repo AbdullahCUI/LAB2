@@ -129,19 +129,25 @@ to use it to convert the US national debt
 (which as of 2020 was \$26,009,754,625,487)?
 Why or why not?
 
+they have not convert the 'int' is less than double data type and second reason 
+we declared the all variable is a float that why the int is not convert
 
 7. Mixed types
 
 a) Run the `area` program with 3 and 4 as inputs.  
 What value do you get?  Is this result correct?
 
+The value is 6.000000 but the result is not corect because we declare the base and height in double data
+type the result is not correct
 
 
 b) Execute the program again with inputs 3 and 5.
 Does the program give correct results?  Why not?
 
-
+they give 7.500000 yes they give correct output
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
+
+solved
 
