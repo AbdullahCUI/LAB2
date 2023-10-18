@@ -46,9 +46,9 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
 4. Complete all the size and range entries below.
 
 * `char`
-  size: 1 byte
+  size:1 byte
   range:
-  Manimum value for signed char: -128 
+  Manimum value for signed char: -128
   Maximum value for signed char:127
   Manimum value for unsigned char:0
   Maximum value for unsigned char:255
@@ -56,13 +56,13 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
   Maximum value for unsigned char:127
   size of signed char:1 byte
 * `short int`
-  size:2 bytes
-  range:-32768
-   Manimum value for signed short:-32768
-  Maximum Value for signed short: 32767
-  size of signed short:2 bytes
+  size:
+  range:
+   Manimum value for signed short:
+  Maximum Value for signed short: 
+  size of signed short:
 
-  Manimum value of unsigned short:0
+  Manimum value of unsigned short:
   Maximum value of unsigned short:65535
   size of unsigned short:2 bytes
 * `int`
