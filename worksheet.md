@@ -101,13 +101,26 @@ Hello, Zeeshan.  You are 10 years, 24 weeks, and 5 days old today.
 the exchange amounts for the following inputs:
 
   a) $250.25
-
+ Your tootal USD is =250.250000
+ Your remaing USD is = 25.225006
+ Exhange rate is :25.02500
+ You have 88.963882 of British Pound
+ You have 14374.986328 of Japaies yen
    
 
   b) $1,000.52
-
+ Your total USD: 1000410.500000
+ Your remaing USD is :900369.437500
+ Exhange rate is :100041.054688
+ You have 355645.937500 of British Pound
+ You have 57466080.000000 of Japanies yen
     
   c) $968,410.12
+
+  Your total USD:968410.125000
+  Your remaing USD is :871569.125000
+  Exchange rate is :96841.015625
+  You have 344269.812500 of British Japanies yen
 
 
 6. Suppose that you had used only `int` types
