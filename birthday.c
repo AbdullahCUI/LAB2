@@ -76,6 +76,7 @@ int main(int argc, char **argv) {
 
   //in declared in integer data type and assigned value is 
 
+
   //diff divided by (24 hours * 60 mints and multipli 60 sec)
   int days = diff / (24 * 60 * 60);
 
@@ -88,6 +89,6 @@ int main(int argc, char **argv) {
 
   //laste message
 
-  printf("Hello, %s.  You are %d years, %d weeks, and %d days old today\n", name, years, weeks, days);
+  printf("Hello, %s.  You are %d years, %d weeks, and %d days old today\n", name_1, years, weeks, days);
 
 }
