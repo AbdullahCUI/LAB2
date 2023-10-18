@@ -14,6 +14,7 @@
 int main(int argc, char **argv) {
 
   //character types
+  //find the range of character data type
   printf("\nData type: character type.\n");
   printf("Minimum value for signed char: %d.\n", SCHAR_MIN);
   printf("Maximum value for signed char: %d.\n", SCHAR_MAX);
@@ -24,6 +25,7 @@ int main(int argc, char **argv) {
   printf("Size of signed char: %ld byte.\n\n", sizeof(signed char));
 
   //integers
+  //finding the reange of integers data type
   printf("Data type: integer.\n");
   printf("Minimum value for signed short: %d.\n", SHRT_MIN);
   printf("Maximum value for signed short: %d. \n", SHRT_MAX);
@@ -45,6 +47,7 @@ int main(int argc, char **argv) {
   printf("Size of unsigned long: %ld bytes.\n\n", sizeof(unsigned long));
 
   //floating point types
+  //finding of ranges of floating data type
   printf("Data type: floating-point.\n");
   printf("Size of float: %ld bytes.\n", sizeof(float));
   printf("Size of double: %ld bytes.\n", sizeof(double));
