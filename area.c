@@ -20,19 +20,19 @@ int main(int argc, char **argv) {
 
  //scanf for to read a value 
 
- scanf("%f", &base);
+ scanf("%lf", &base);
 
  printf("Please Enter Height of the Triangle:");
 
- scanf("%f", & height);
+ scanf("%lf", & height);
 
  //formula of area culculating
 
- area=1.0/2* base *height;
+ area=1.0/2* (base *height);
 
  //print the area of a triangle
 
- printf("The Area of triangle = %f", area);
+ printf("The Area of triangle = %lf", area);
 
  return 0;
 }
